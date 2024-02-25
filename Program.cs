@@ -36,7 +36,7 @@
 
 //4.ZADATAK
 //Random random = new Random();
-//int genNum = random.Next(0, 101);
+//int genNum = random.Next(1, 101);
 //int input;
 
 //while (true)
@@ -63,14 +63,11 @@
 //string path = @"E:\repos\PredavanjeCetiri\predavanjeCetiri\zadaca.txt";
 //if (!File.Exists(path))
 //{
-//    // Create a file to write to.
 //    using (StreamWriter steamwriter = File.CreateText(path))
 //    {
 //        steamwriter.WriteLine("My .txt file content");
 //    }
 //}
-
-//// Open the file to read from.
 //using (StreamReader steamreader = File.OpenText(path))
 //{
 //    string s;
@@ -79,4 +76,4 @@
 //        Console.WriteLine(s);
 //    }
 //}
-    
+
